@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<routes>
+    <vType id="car" vClass="passenger" length="4.0" maxSpeed="15.0" color="0,1,0"/>
+    <vType id="bus" vClass="bus" length="12.0" maxSpeed="10.0" color="1,1,0"/>
+    <vType id="truck" vClass="truck" length="8.0" maxSpeed="10.0" color="1,1,1"/>
+    
+    <vType id="ambulance" vClass="emergency" guiShape="delivery" length="5.0" maxSpeed="25.0" color="1,0,0" accel="3.5" decel="4.5" speedFactor="1.5" minGap="1.0"/>
+
+    <route id="north_to_south" edges="A0 C1"/>
+    <route id="east_to_west" edges="D0 B1"/>
+    <route id="south_to_north" edges="C0 A1"/>
+    <route id="west_to_east" edges="B0 D1"/>
+
+    <vehicle id="v_1" type="car" route="north_to_south" depart="0"/>
+    <vehicle id="v_2" type="car" route="east_to_west" depart="2"/>
+    <vehicle id="v_3" type="bus" route="south_to_north" depart="5"/>
+    <vehicle id="v_4" type="car" route="west_to_east" depart="6"/>
+    <vehicle id="v_5" type="car" route="north_to_south" depart="8"/>
+    <vehicle id="v_6" type="truck" route="east_to_west" depart="10"/>
+    <vehicle id="v_7" type="car" route="south_to_north" depart="12"/>
+    <vehicle id="v_8" type="car" route="north_to_south" depart="15"/>
+    <vehicle id="v_9" type="bus" route="west_to_east" depart="18"/>
+    <vehicle id="v_10" type="car" route="east_to_west" depart="20"/>
+    <vehicle id="v_11" type="car" route="north_to_south" depart="22"/>
+    <vehicle id="v_12" type="car" route="south_to_north" depart="25"/>
+    <vehicle id="v_13" type="truck" route="west_to_east" depart="28"/>
+    <vehicle id="v_14" type="car" route="north_to_south" depart="30"/>
+    <vehicle id="v_15" type="car" route="east_to_west" depart="35"/>
+
+    <vehicle id="AMBULANCE_01" type="ambulance" route="north_to_south" depart="45"/>
+    
+    <vehicle id="v_16" type="car" route="east_to_west" depart="50"/>
+    <vehicle id="v_17" type="bus" route="south_to_north" depart="52"/>
+    <vehicle id="v_18" type="car" route="west_to_east" depart="55"/>
+    <vehicle id="v_19" type="car" route="north_to_south" depart="58"/>
+    <vehicle id="v_20" type="truck" route="east_to_west" depart="60"/>
+    <vehicle id="v_21" type="car" route="south_to_north" depart="65"/>
+    <vehicle id="v_22" type="car" route="west_to_east" depart="70"/>
+    <vehicle id="v_23" type="car" route="north_to_south" depart="75"/>
+    <vehicle id="v_24" type="bus" route="east_to_west" depart="80"/>
+
+</routes>
