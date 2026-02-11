@@ -27,6 +27,8 @@ Rakshak 3.0 is an AI-driven traffic management solution that replaces inefficien
 **2. IoT Edge (Hardware Prototype)**
 - OLED dashboard displaying status and alerts
 - LED array representing 4-way intersection states
+## DEMO
+https://youtu.be/Dow4QunTVik
 
 ## 📊 Performance Metrics
 
@@ -66,6 +68,7 @@ pip install torch numpy pyserial traci
 
 **Execution:**
 ```bash
+
 python run_demo.py
 ```
 
